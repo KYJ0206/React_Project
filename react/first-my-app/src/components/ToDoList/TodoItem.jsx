@@ -21,9 +21,12 @@ const TodoItemBlock = styled.div`
   align-items: center;
   padding-top: 12px;
   padding-bottom: 12px;
+  cursor: pointer;
   &:hover {
+
     ${Remove} {
       display: initial;
+      color : #ff6b6b;
     }
   }
 `;
@@ -51,6 +54,7 @@ const Text = styled.div`
   flex: 1;
   font-size: 21px;
   color: #495057;
+  padding-right: 60px;
   ${props =>
     props.done &&
     css`

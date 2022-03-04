@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Counter from '../Counter/Counter';
 import Dummy from '../../Dummy/Dummy';
 import './CounterList.scss'
 import axios from 'axios';
@@ -59,6 +60,7 @@ function CounterList(){
                 <h3> {글제목[4]}<span onClick={() => { 좋아요함수5(좋아요5 + 1) }}> 👍🏽 </span> {좋아요5} <span onClick={() => { 싫어요함수5(싫어요5 - 1) }}> 👎🏾 </span> {싫어요5}  </h3>
                 <p>수명:14년</p>
             </div>
+            <Counter />
             <div id='userInfo' className='fetch_button'>
                 <button onClick={()=> { onLode() }} >
                     Fetch

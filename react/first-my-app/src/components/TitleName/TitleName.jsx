@@ -1,9 +1,9 @@
 import React from "react";
 import "./TitleName.scss"
 
-const TitleName = () => (
+const TitleName = (props) => (
     <div>
-        <h1 className="TitleName">나의 첫번째 React_Project</h1>
+        <h1 className="TitleName">나의 첫번째 React_Project {props.name}</h1>
     </div>
 )
 

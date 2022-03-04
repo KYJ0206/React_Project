@@ -2,9 +2,9 @@ import './Listtitle.scss'
 import React from 'react'
 import { MdSmartDisplay } from 'react-icons/md'
         
-const Listtitle = () => (
+const Listtitle = ({name,color}) => (
     <div>
-        <h1 className="TitleName2">Counter_Good/Bed</h1>
+        <h1 style={{color:color}} className="TitleName2">  Counter_Good/Bed {name}</h1>
     </div>
 )
 

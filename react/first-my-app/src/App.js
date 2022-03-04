@@ -21,8 +21,8 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   return (
     <div className="App">
-      <TitleName />
-      <Listtitle />
+      <TitleName name = "No.1" />
+      <Listtitle name = "이게 Props 니?" color = "#ff0"/>
       <CounterList />
       <Listtitle2 />
       <TodoProvider>

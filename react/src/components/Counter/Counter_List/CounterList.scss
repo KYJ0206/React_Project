@@ -1,0 +1,59 @@
+.list {
+    border-bottom: 1px solid;
+        span {
+            box-sizing: border-box;
+            padding: 0 10px;
+            cursor: pointer;
+        }
+    &:last-child{
+        border-bottom: none;
+    }
+}
+
+.fetch_button{
+    position: relative;
+    border-top: 1px solid;
+    .xbutton{
+        position: absolute;
+        padding: 10px;
+        top: 7px;
+        right: 15px;
+        color: #fff;
+        background-color: red;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        cursor: pointer;
+        &:hover{
+            background-color:#777;
+        }
+    }
+    div{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+    }
+    button{
+        width: 100%;
+        height: 50px;
+        cursor: pointer;
+        background-color: #ff1;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        &:hover{
+            background-color: #999;
+        }
+    }
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        border-top: 1px solid;
+        padding: 15px 0px;
+    }
+}

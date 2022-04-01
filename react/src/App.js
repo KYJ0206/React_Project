@@ -6,6 +6,9 @@ import {Listtitle,Listtitle2,Listtitle3} from './components/Counter/Listtitle/Li
 import CounterList from './components/Counter/Counter_List/CounterList';
 // TodoList
 import Home from "./pages/Home"
+import { MdCalculate } from 'react-icons/md';
+//Calculator
+import Calculator from './components/Calculator/Calculator';
 
 
 
@@ -18,8 +21,8 @@ function App() {
       <Listtitle2 />
       <Home />
       <Listtitle3 />
+      <Calculator />
     </div>
-      
   );
 }
 
